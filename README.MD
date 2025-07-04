@@ -12,6 +12,10 @@ python main.py --help
 ---
 
 # Сделано
+
+[Код](https://github.com/Elelion/WorkMate/blob/master/main.py) <br>
+[Тесты](https://github.com/Elelion/WorkMate/blob/master/tests/test_main.py)
+
 - Парсинг аргументов (parse_args) — есть
 - Чтение CSV (read_csv) — есть
 - Фильтрация (--where и функции parse_where_clause, filter_data) — есть
