@@ -21,3 +21,12 @@ python main.py --help
 - Сортировка (--order-by + apply_sorting) — есть
 - Вызов всего этого в main() с правильным порядком — есть
 - Аннотации - есть
+
+---
+
+# Команды для запуска
+- python main.py --file products.csv --where "price > 800"
+- python main.py --file products.csv --where "price > 500" --aggregate "price=avg"
+- python main.py --file products.csv --where "price > 500" --select name,price
+- python main.py --file products.csv --groupby brand --aggregate price=avg
+- python main.py --file products.csv --where "rating > 4.5" --order-by "rating=desc"
